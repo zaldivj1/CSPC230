@@ -6,6 +6,7 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
+//constant
 const double MPHMPS = 1609.0/3600.0;
 int main() {
 //variables
@@ -27,7 +28,7 @@ acceleration = (MPHMPS)*(velocity/time);
 
 //rounding
 acceleration *= 100;
-acceleration += 0.5;
+acceleration += 0.7;
 newAcceleration = static_cast<int>(acceleration);
 acceleration = static_cast<double> (newAcceleration)/100;
 
